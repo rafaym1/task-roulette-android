@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "all-caps-body",
+        "value": "*",
+        "files": [
+          "android-app/docs/index.html"
+        ],
+        "createdAt": "2026-09-15T07:29:35.869Z",
+        "reason": "the .updated line is a single short metadata label ('Last updated September 15, 2026'), not a long passage of body text -- matches the rule's own carve-out for short labels/headings"
+      }
+    ]
+  }
+}
